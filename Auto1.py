@@ -2,6 +2,7 @@ import netmiko
 import paramiko
 import logging
 import getpass
+import os
 from netmiko import ConnectHandler
 from getpass import getpass
 
