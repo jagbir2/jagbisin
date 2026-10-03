@@ -1,6 +1,17 @@
-print ("Hello world")
 import netmiko
+import logging
+import os
+
+print("Current working directory is" ,os.getcwd())
 #import paramiko
+
+logger=logging.getLogger()
+logger.setLevel(logging.INFO)
+file_handler=logging.FileHandler("logs.txt")
+logformat=logging.Formatter("%(asctime)s %(levelname)s %(message)s ")
+file_handler.setFormatter(logformat)
+logger.addHandler(file_handler)
+
 
 from netmiko import ConnectHandler
 # This is the new git comment
