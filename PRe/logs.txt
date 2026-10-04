@@ -714,3 +714,96 @@ Device settings: cisco_ios 10.1.1.2:22
 2026-10-04 07:32:57,652 INFO Authentication (password) successful! 
 2026-10-04 07:32:58,510 INFO Connected (version 2.0, client Cisco-1.25) 
 2026-10-04 07:32:59,473 INFO Authentication (password) successful! 
+2026-10-04 07:52:02,391 INFO Connected (version 2.0, client Cisco-1.25)
+2026-10-04 07:52:03,046 INFO Authentication (password) successful!
+2026-10-04 07:52:03,630 INFO Connected (version 2.0, client Cisco-1.25)
+2026-10-04 07:52:04,483 INFO Authentication (password) successful!
+2026-10-04 07:52:05,445 INFO Connected (version 2.0, client Cisco-1.25)
+2026-10-04 07:52:06,616 INFO Authentication (password) successful!
+2026-10-04 09:16:22,461 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:16:23,316 INFO Authentication (password) successful! 
+2026-10-04 09:16:31,027 ERROR Failed to connect due to 'function' object has no attribute 'send_command' 
+2026-10-04 09:17:56,224 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:17:56,900 INFO Authentication (password) successful! 
+2026-10-04 09:18:00,124 ERROR Failed to connect due to 'function' object has no attribute 'send_command' 
+2026-10-04 09:19:01,665 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:19:02,557 INFO Authentication (password) successful! 
+2026-10-04 09:19:05,467 ERROR Failed to connect due to 'function' object has no attribute 'send_command' 
+2026-10-04 09:20:39,289 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:20:40,066 INFO Authentication (password) successful! 
+2026-10-04 09:20:43,224 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:20:44,023 INFO Authentication (password) successful! 
+2026-10-04 09:20:47,661 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:20:48,882 INFO Authentication (password) successful! 
+2026-10-04 09:21:08,903 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:21:09,553 INFO Authentication (password) successful! 
+2026-10-04 09:21:18,820 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:21:19,621 INFO Authentication (password) successful! 
+2026-10-04 09:22:52,693 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:22:53,564 INFO Authentication (password) successful! 
+2026-10-04 09:22:56,991 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:22:57,909 INFO Authentication (password) successful! 
+2026-10-04 09:23:02,990 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:23:04,224 INFO Authentication (password) successful! 
+2026-10-04 09:25:27,091 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:27,722 INFO Authentication (password) successful! 
+2026-10-04 09:25:35,874 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:36,706 INFO Authentication (password) successful! 
+2026-10-04 09:25:37,755 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:38,966 INFO Authentication (password) successful! 
+2026-10-04 09:25:43,256 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:43,925 INFO Authentication (password) successful! 
+2026-10-04 09:25:51,441 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:52,225 INFO Authentication (password) successful! 
+2026-10-04 09:25:55,838 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:57,007 INFO Authentication (password) successful! 
+2026-10-04 09:26:49,902 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:26:50,462 INFO Authentication (password) successful! 
+2026-10-04 09:27:04,103 ERROR Failed to connect due to TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 10.1.1.2:22
+
+ 
+2026-10-04 09:45:39,393 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:45:40,028 INFO Authentication (password) successful! 
+2026-10-04 09:45:53,498 ERROR Failed to connect due to TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 10.1.1.2:22
+
+ 
+2026-10-04 09:46:03,500 ERROR Failed to connect due to TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.196.2:22
+
+ 
+2026-10-04 11:13:16,702 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 11:13:17,530 INFO Authentication (password) successful! 
+2026-10-04 11:13:34,340 ERROR Failed to connect due to 
+Pattern not detected: 'R1\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+ 
+2026-10-04 11:13:34,526 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 11:13:35,356 INFO Authentication (password) successful! 
+2026-10-04 11:13:41,726 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 11:13:42,876 INFO Authentication (password) successful! 
