@@ -1,0 +1,809 @@
+2026-10-03 10:33:10,359 DEBUG starting thread (client mode): 0x5584c050 
+2026-10-03 10:33:10,360 DEBUG Local version/idstring: SSH-2.0-paramiko_4.0.0 
+2026-10-03 10:33:10,368 DEBUG Remote version/idstring: SSH-2.0-Cisco-1.25 
+2026-10-03 10:33:10,368 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 10:33:10,369 DEBUG === Key exchange possibilities === 
+2026-10-03 10:33:10,370 DEBUG kex algos: diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1 
+2026-10-03 10:33:10,370 DEBUG server key: ssh-rsa 
+2026-10-03 10:33:10,370 DEBUG client encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 10:33:10,370 DEBUG server encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 10:33:10,371 DEBUG client mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 10:33:10,371 DEBUG server mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 10:33:10,371 DEBUG client compress: none 
+2026-10-03 10:33:10,371 DEBUG server compress: none 
+2026-10-03 10:33:10,371 DEBUG client lang: <none> 
+2026-10-03 10:33:10,371 DEBUG server lang: <none> 
+2026-10-03 10:33:10,371 DEBUG kex follows: False 
+2026-10-03 10:33:10,371 DEBUG === Key exchange agreements === 
+2026-10-03 10:33:10,371 DEBUG Kex: diffie-hellman-group-exchange-sha1 
+2026-10-03 10:33:10,371 DEBUG HostKey: ssh-rsa 
+2026-10-03 10:33:10,371 DEBUG Cipher: aes128-cbc 
+2026-10-03 10:33:10,371 DEBUG MAC: hmac-sha1 
+2026-10-03 10:33:10,371 DEBUG Compression: none 
+2026-10-03 10:33:10,371 DEBUG === End of kex handshake === 
+2026-10-03 10:33:10,618 DEBUG Got server p (2048 bits) 
+2026-10-03 10:33:10,876 DEBUG kex engine KexGex specified hash_algo <built-in function openssl_sha1> 
+2026-10-03 10:33:10,878 DEBUG Switch to new keys ... 
+2026-10-03 10:33:10,879 DEBUG Adding ssh-rsa host key for 192.168.56.10: b'cc795cb9cf833c32ff9290b65977f54b' 
+2026-10-03 10:33:11,117 DEBUG userauth is OK 
+2026-10-03 10:33:11,143 INFO Authentication (password) successful! 
+2026-10-03 10:33:11,144 DEBUG [chan 0] Max packet in: 32768 bytes 
+2026-10-03 10:33:11,152 DEBUG [chan 0] Max packet out: 4096 bytes 
+2026-10-03 10:33:11,153 DEBUG Secsh channel 0 opened. 
+2026-10-03 10:33:11,167 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 10:33:11,190 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 10:33:11,191 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:11,352 DEBUG write_channel: b'terminal width 511\n' 
+2026-10-03 10:33:11,352 DEBUG read_channel: 
+R1#
+R1# 
+2026-10-03 10:33:11,363 DEBUG read_channel:  
+2026-10-03 10:33:11,382 DEBUG read_channel: terminal width 511
+ 
+2026-10-03 10:33:11,382 DEBUG Pattern found: (terminal width 511) 
+R1#
+R1#terminal width 511 
+2026-10-03 10:33:11,383 DEBUG In disable_paging 
+2026-10-03 10:33:11,383 DEBUG Command: terminal length 0
+ 
+2026-10-03 10:33:11,383 DEBUG write_channel: b'terminal length 0\n' 
+2026-10-03 10:33:11,383 DEBUG read_channel:  
+2026-10-03 10:33:11,394 DEBUG read_channel:  
+2026-10-03 10:33:11,405 DEBUG read_channel: R1#t 
+2026-10-03 10:33:11,415 DEBUG read_channel:  
+2026-10-03 10:33:11,426 DEBUG read_channel: erminal length 0 
+2026-10-03 10:33:11,426 DEBUG Pattern found: (terminal\ length\ 0) 
+R1#terminal length 0 
+2026-10-03 10:33:11,426 DEBUG 
+R1#terminal length 0 
+2026-10-03 10:33:11,426 DEBUG Exiting disable_paging 
+2026-10-03 10:33:11,437 DEBUG read_channel: 
+R1# 
+2026-10-03 10:33:11,437 DEBUG Clear buffer detects data in the channel 
+2026-10-03 10:33:11,458 DEBUG read_channel:  
+2026-10-03 10:33:11,458 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:11,458 DEBUG read_channel:  
+2026-10-03 10:33:11,469 DEBUG read_channel: 
+R1# 
+2026-10-03 10:33:11,469 DEBUG Pattern found: ((?:\#|>)) 
+R1# 
+2026-10-03 10:33:11,480 DEBUG read_channel:  
+2026-10-03 10:33:11,480 DEBUG [find_prompt()]: prompt is R1# 
+2026-10-03 10:33:11,490 DEBUG read_channel:  
+2026-10-03 10:33:11,491 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:11,516 DEBUG read_channel: 
+R1# 
+2026-10-03 10:33:11,527 DEBUG read_channel:  
+2026-10-03 10:33:11,527 DEBUG [find_prompt()]: prompt is R1# 
+2026-10-03 10:33:11,538 DEBUG read_channel:  
+2026-10-03 10:33:11,539 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:11,564 DEBUG read_channel: 
+R1# 
+2026-10-03 10:33:11,575 DEBUG read_channel:  
+2026-10-03 10:33:11,575 DEBUG [find_prompt()]: prompt is R1# 
+2026-10-03 10:33:11,575 DEBUG write_channel: b'sh ip int brief\n' 
+2026-10-03 10:33:11,575 DEBUG read_channel:  
+2026-10-03 10:33:11,586 DEBUG read_channel: sh ip i 
+2026-10-03 10:33:11,596 DEBUG read_channel:  
+2026-10-03 10:33:11,607 DEBUG read_channel: nt brief
+ 
+2026-10-03 10:33:11,607 DEBUG Pattern found: (sh\ ip\ int\ brief) sh ip int brief 
+2026-10-03 10:33:11,633 DEBUG read_channel: Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.56.10   YES NVRAM  up                    up      
+FastEthernet1/0            10.1.1.1        YES NVRAM  up                    up      
+R1# 
+2026-10-03 10:33:11,732 DEBUG starting thread (client mode): 0x5584d160 
+2026-10-03 10:33:11,732 DEBUG Local version/idstring: SSH-2.0-paramiko_4.0.0 
+2026-10-03 10:33:11,767 DEBUG Remote version/idstring: SSH-2.0-Cisco-1.25 
+2026-10-03 10:33:11,768 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 10:33:11,784 DEBUG === Key exchange possibilities === 
+2026-10-03 10:33:11,784 DEBUG kex algos: diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1 
+2026-10-03 10:33:11,784 DEBUG server key: ssh-rsa 
+2026-10-03 10:33:11,784 DEBUG client encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 10:33:11,784 DEBUG server encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 10:33:11,784 DEBUG client mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 10:33:11,784 DEBUG server mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 10:33:11,784 DEBUG client compress: none 
+2026-10-03 10:33:11,785 DEBUG server compress: none 
+2026-10-03 10:33:11,785 DEBUG client lang: <none> 
+2026-10-03 10:33:11,785 DEBUG server lang: <none> 
+2026-10-03 10:33:11,785 DEBUG kex follows: False 
+2026-10-03 10:33:11,785 DEBUG === Key exchange agreements === 
+2026-10-03 10:33:11,785 DEBUG Kex: diffie-hellman-group-exchange-sha1 
+2026-10-03 10:33:11,785 DEBUG HostKey: ssh-rsa 
+2026-10-03 10:33:11,785 DEBUG Cipher: aes128-cbc 
+2026-10-03 10:33:11,785 DEBUG MAC: hmac-sha1 
+2026-10-03 10:33:11,785 DEBUG Compression: none 
+2026-10-03 10:33:11,785 DEBUG === End of kex handshake === 
+2026-10-03 10:33:11,862 DEBUG Got server p (2048 bits) 
+2026-10-03 10:33:12,226 DEBUG kex engine KexGex specified hash_algo <built-in function openssl_sha1> 
+2026-10-03 10:33:12,226 DEBUG Switch to new keys ... 
+2026-10-03 10:33:12,226 DEBUG Adding ssh-rsa host key for 10.1.1.2: b'f9601795e4486a9c8508c5b2d3d0901c' 
+2026-10-03 10:33:12,501 DEBUG userauth is OK 
+2026-10-03 10:33:12,551 INFO Authentication (password) successful! 
+2026-10-03 10:33:12,551 DEBUG [chan 0] Max packet in: 32768 bytes 
+2026-10-03 10:33:12,601 DEBUG [chan 0] Max packet out: 4096 bytes 
+2026-10-03 10:33:12,601 DEBUG Secsh channel 0 opened. 
+2026-10-03 10:33:12,649 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 10:33:12,701 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 10:33:12,701 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:12,802 DEBUG write_channel: b'terminal width 511\n' 
+2026-10-03 10:33:12,802 DEBUG read_channel: 
+R2#
+R2# 
+2026-10-03 10:33:12,813 DEBUG read_channel:  
+2026-10-03 10:33:12,824 DEBUG read_channel:  
+2026-10-03 10:33:12,835 DEBUG read_channel:  
+2026-10-03 10:33:12,846 DEBUG read_channel:  
+2026-10-03 10:33:12,856 DEBUG read_channel: terminal width 511
+ 
+2026-10-03 10:33:12,856 DEBUG Pattern found: (terminal width 511) 
+R2#
+R2#terminal width 511 
+2026-10-03 10:33:12,857 DEBUG In disable_paging 
+2026-10-03 10:33:12,857 DEBUG Command: terminal length 0
+ 
+2026-10-03 10:33:12,857 DEBUG write_channel: b'terminal length 0\n' 
+2026-10-03 10:33:12,857 DEBUG read_channel:  
+2026-10-03 10:33:12,869 DEBUG read_channel: R2# 
+2026-10-03 10:33:12,880 DEBUG read_channel:  
+2026-10-03 10:33:12,890 DEBUG read_channel:  
+2026-10-03 10:33:12,903 DEBUG read_channel: terminal length 0
+R2# 
+2026-10-03 10:33:12,903 DEBUG Pattern found: (terminal\ length\ 0) 
+R2#terminal length 0 
+2026-10-03 10:33:12,903 DEBUG 
+R2#terminal length 0 
+2026-10-03 10:33:12,903 DEBUG Exiting disable_paging 
+2026-10-03 10:33:12,913 DEBUG read_channel:  
+2026-10-03 10:33:12,913 DEBUG Clear buffer detects data in the channel 
+2026-10-03 10:33:12,935 DEBUG read_channel:  
+2026-10-03 10:33:12,935 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:12,936 DEBUG read_channel:  
+2026-10-03 10:33:12,946 DEBUG read_channel:  
+2026-10-03 10:33:12,957 DEBUG read_channel:  
+2026-10-03 10:33:12,968 DEBUG read_channel:  
+2026-10-03 10:33:12,978 DEBUG read_channel:  
+2026-10-03 10:33:12,989 DEBUG read_channel: 
+R2# 
+2026-10-03 10:33:12,989 DEBUG Pattern found: ((?:\#|>)) 
+R2# 
+2026-10-03 10:33:13,000 DEBUG read_channel:  
+2026-10-03 10:33:13,001 DEBUG [find_prompt()]: prompt is R2# 
+2026-10-03 10:33:13,011 DEBUG read_channel:  
+2026-10-03 10:33:13,011 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:13,038 DEBUG read_channel:  
+2026-10-03 10:33:13,038 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:13,063 DEBUG read_channel: 
+R2# 
+2026-10-03 10:33:13,074 DEBUG read_channel:  
+2026-10-03 10:33:13,074 DEBUG [find_prompt()]: prompt is R2# 
+2026-10-03 10:33:13,086 DEBUG read_channel:  
+2026-10-03 10:33:13,088 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:13,114 DEBUG read_channel: 
+R2# 
+2026-10-03 10:33:13,125 DEBUG read_channel:  
+2026-10-03 10:33:13,126 DEBUG [find_prompt()]: prompt is R2# 
+2026-10-03 10:33:13,126 DEBUG write_channel: b'sh ip int brief\n' 
+2026-10-03 10:33:13,126 DEBUG read_channel:  
+2026-10-03 10:33:13,136 DEBUG read_channel:  
+2026-10-03 10:33:13,147 DEBUG read_channel:  
+2026-10-03 10:33:13,158 DEBUG read_channel: 
+R2# 
+2026-10-03 10:33:13,169 DEBUG read_channel:  
+2026-10-03 10:33:13,179 DEBUG read_channel:  
+2026-10-03 10:33:13,190 DEBUG read_channel: sh ip int brief
+ 
+2026-10-03 10:33:13,190 DEBUG Pattern found: (sh\ ip\ int\ brief) 
+R2#sh ip int brief 
+2026-10-03 10:33:13,215 DEBUG read_channel: Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            10.1.1.2        YES NVRAM  up                    up      
+FastEthernet1/0            172.16.196.1    YES NVRAM  up                    up      
+R2# 
+2026-10-03 10:33:13,349 DEBUG starting thread (client mode): 0x5567f8c0 
+2026-10-03 10:33:13,349 DEBUG Local version/idstring: SSH-2.0-paramiko_4.0.0 
+2026-10-03 10:33:13,434 DEBUG Remote version/idstring: SSH-2.0-Cisco-1.25 
+2026-10-03 10:33:13,434 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 10:33:13,517 DEBUG === Key exchange possibilities === 
+2026-10-03 10:33:13,517 DEBUG kex algos: diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1 
+2026-10-03 10:33:13,517 DEBUG server key: ssh-rsa 
+2026-10-03 10:33:13,517 DEBUG client encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 10:33:13,517 DEBUG server encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 10:33:13,517 DEBUG client mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 10:33:13,517 DEBUG server mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 10:33:13,517 DEBUG client compress: none 
+2026-10-03 10:33:13,518 DEBUG server compress: none 
+2026-10-03 10:33:13,518 DEBUG client lang: <none> 
+2026-10-03 10:33:13,518 DEBUG server lang: <none> 
+2026-10-03 10:33:13,518 DEBUG kex follows: False 
+2026-10-03 10:33:13,518 DEBUG === Key exchange agreements === 
+2026-10-03 10:33:13,518 DEBUG Kex: diffie-hellman-group-exchange-sha1 
+2026-10-03 10:33:13,518 DEBUG HostKey: ssh-rsa 
+2026-10-03 10:33:13,518 DEBUG Cipher: aes128-cbc 
+2026-10-03 10:33:13,518 DEBUG MAC: hmac-sha1 
+2026-10-03 10:33:13,518 DEBUG Compression: none 
+2026-10-03 10:33:13,518 DEBUG === End of kex handshake === 
+2026-10-03 10:33:13,600 DEBUG Got server p (2048 bits) 
+2026-10-03 10:33:13,975 DEBUG kex engine KexGex specified hash_algo <built-in function openssl_sha1> 
+2026-10-03 10:33:13,975 DEBUG Switch to new keys ... 
+2026-10-03 10:33:13,975 DEBUG Adding ssh-rsa host key for 172.16.196.2: b'3a38b541c1c3580dffe5d90fa5863b62' 
+2026-10-03 10:33:14,277 DEBUG userauth is OK 
+2026-10-03 10:33:14,349 INFO Authentication (password) successful! 
+2026-10-03 10:33:14,350 DEBUG [chan 0] Max packet in: 32768 bytes 
+2026-10-03 10:33:14,429 DEBUG [chan 0] Max packet out: 4096 bytes 
+2026-10-03 10:33:14,429 DEBUG Secsh channel 0 opened. 
+2026-10-03 10:33:14,508 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 10:33:14,587 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 10:33:14,587 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:14,688 DEBUG write_channel: b'terminal width 511\n' 
+2026-10-03 10:33:14,688 DEBUG read_channel: 
+R3#
+R3# 
+2026-10-03 10:33:14,699 DEBUG read_channel:  
+2026-10-03 10:33:14,709 DEBUG read_channel:  
+2026-10-03 10:33:14,720 DEBUG read_channel:  
+2026-10-03 10:33:14,730 DEBUG read_channel:  
+2026-10-03 10:33:14,741 DEBUG read_channel:  
+2026-10-03 10:33:14,751 DEBUG read_channel: terminal width 511
+ 
+2026-10-03 10:33:14,751 DEBUG Pattern found: (terminal width 511) 
+R3#
+R3#terminal width 511 
+2026-10-03 10:33:14,751 DEBUG In disable_paging 
+2026-10-03 10:33:14,751 DEBUG Command: terminal length 0
+ 
+2026-10-03 10:33:14,752 DEBUG write_channel: b'terminal length 0\n' 
+2026-10-03 10:33:14,752 DEBUG read_channel:  
+2026-10-03 10:33:14,762 DEBUG read_channel: R3# 
+2026-10-03 10:33:14,773 DEBUG read_channel:  
+2026-10-03 10:33:14,783 DEBUG read_channel:  
+2026-10-03 10:33:14,794 DEBUG read_channel:  
+2026-10-03 10:33:14,804 DEBUG read_channel:  
+2026-10-03 10:33:14,814 DEBUG read_channel:  
+2026-10-03 10:33:14,825 DEBUG read_channel: terminal len 
+2026-10-03 10:33:14,836 DEBUG read_channel: gth 0
+R3# 
+2026-10-03 10:33:14,836 DEBUG Pattern found: (terminal\ length\ 0) 
+R3#terminal length 0 
+2026-10-03 10:33:14,836 DEBUG 
+R3#terminal length 0 
+2026-10-03 10:33:14,836 DEBUG Exiting disable_paging 
+2026-10-03 10:33:14,846 DEBUG read_channel:  
+2026-10-03 10:33:14,847 DEBUG Clear buffer detects data in the channel 
+2026-10-03 10:33:14,868 DEBUG read_channel:  
+2026-10-03 10:33:14,868 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:14,868 DEBUG read_channel:  
+2026-10-03 10:33:14,878 DEBUG read_channel:  
+2026-10-03 10:33:14,889 DEBUG read_channel:  
+2026-10-03 10:33:14,899 DEBUG read_channel:  
+2026-10-03 10:33:14,910 DEBUG read_channel:  
+2026-10-03 10:33:14,921 DEBUG read_channel:  
+2026-10-03 10:33:14,931 DEBUG read_channel:  
+2026-10-03 10:33:14,941 DEBUG read_channel:  
+2026-10-03 10:33:14,952 DEBUG read_channel: 
+R3# 
+2026-10-03 10:33:14,952 DEBUG Pattern found: ((?:\#|>)) 
+R3# 
+2026-10-03 10:33:14,962 DEBUG read_channel:  
+2026-10-03 10:33:14,962 DEBUG [find_prompt()]: prompt is R3# 
+2026-10-03 10:33:14,973 DEBUG read_channel:  
+2026-10-03 10:33:14,973 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:14,998 DEBUG read_channel:  
+2026-10-03 10:33:14,998 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:15,024 DEBUG read_channel:  
+2026-10-03 10:33:15,024 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:15,075 DEBUG read_channel: 
+R3# 
+2026-10-03 10:33:15,085 DEBUG read_channel:  
+2026-10-03 10:33:15,086 DEBUG [find_prompt()]: prompt is R3# 
+2026-10-03 10:33:15,096 DEBUG read_channel:  
+2026-10-03 10:33:15,096 DEBUG write_channel: b'\n' 
+2026-10-03 10:33:15,122 DEBUG read_channel: 
+R3#
+R3# 
+2026-10-03 10:33:15,132 DEBUG read_channel:  
+2026-10-03 10:33:15,133 DEBUG [find_prompt()]: prompt is R3# 
+2026-10-03 10:33:15,133 DEBUG write_channel: b'sh ip int brief\n' 
+2026-10-03 10:33:15,133 DEBUG read_channel:  
+2026-10-03 10:33:15,144 DEBUG read_channel:  
+2026-10-03 10:33:15,154 DEBUG read_channel:  
+2026-10-03 10:33:15,165 DEBUG read_channel:  
+2026-10-03 10:33:15,176 DEBUG read_channel:  
+2026-10-03 10:33:15,186 DEBUG read_channel: 
+R3# 
+2026-10-03 10:33:15,197 DEBUG read_channel:  
+2026-10-03 10:33:15,207 DEBUG read_channel:  
+2026-10-03 10:33:15,218 DEBUG read_channel:  
+2026-10-03 10:33:15,229 DEBUG read_channel:  
+2026-10-03 10:33:15,239 DEBUG read_channel:  
+2026-10-03 10:33:15,250 DEBUG read_channel: sh ip int brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            172.16.196.2    YES NVRAM  up                    up      
+FastEthernet1/0            unassigned      YES NVRAM  administratively down down    
+R3# 
+2026-10-03 10:33:15,250 DEBUG Pattern found: (sh\ ip\ int\ brief) 
+R3#sh ip int brief 
+2026-10-03 10:33:15,275 DEBUG read_channel:  
+2026-10-03 10:33:15,276 DEBUG EOF in transport thread 
+2026-10-03 10:33:15,276 DEBUG EOF in transport thread 
+2026-10-03 12:28:02,983 DEBUG starting thread (client mode): 0xbb51c050 
+2026-10-03 12:28:02,983 DEBUG Local version/idstring: SSH-2.0-paramiko_4.0.0 
+2026-10-03 12:28:03,018 DEBUG Remote version/idstring: SSH-2.0-Cisco-1.25 
+2026-10-03 12:28:03,019 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 12:28:03,038 DEBUG === Key exchange possibilities === 
+2026-10-03 12:28:03,038 DEBUG kex algos: diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1 
+2026-10-03 12:28:03,041 DEBUG server key: ssh-rsa 
+2026-10-03 12:28:03,042 DEBUG client encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 12:28:03,042 DEBUG server encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 12:28:03,042 DEBUG client mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 12:28:03,042 DEBUG server mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 12:28:03,042 DEBUG client compress: none 
+2026-10-03 12:28:03,042 DEBUG server compress: none 
+2026-10-03 12:28:03,042 DEBUG client lang: <none> 
+2026-10-03 12:28:03,042 DEBUG server lang: <none> 
+2026-10-03 12:28:03,042 DEBUG kex follows: False 
+2026-10-03 12:28:03,042 DEBUG === Key exchange agreements === 
+2026-10-03 12:28:03,042 DEBUG Kex: diffie-hellman-group-exchange-sha1 
+2026-10-03 12:28:03,042 DEBUG HostKey: ssh-rsa 
+2026-10-03 12:28:03,042 DEBUG Cipher: aes128-cbc 
+2026-10-03 12:28:03,042 DEBUG MAC: hmac-sha1 
+2026-10-03 12:28:03,042 DEBUG Compression: none 
+2026-10-03 12:28:03,042 DEBUG === End of kex handshake === 
+2026-10-03 12:28:03,053 DEBUG Got server p (2048 bits) 
+2026-10-03 12:28:03,419 DEBUG kex engine KexGex specified hash_algo <built-in function openssl_sha1> 
+2026-10-03 12:28:03,419 DEBUG Switch to new keys ... 
+2026-10-03 12:28:03,420 DEBUG Adding ssh-rsa host key for 192.168.56.10: b'cc795cb9cf833c32ff9290b65977f54b' 
+2026-10-03 12:28:03,653 DEBUG userauth is OK 
+2026-10-03 12:28:03,683 INFO Authentication (password) successful! 
+2026-10-03 12:28:03,683 DEBUG [chan 0] Max packet in: 32768 bytes 
+2026-10-03 12:28:03,699 DEBUG [chan 0] Max packet out: 4096 bytes 
+2026-10-03 12:28:03,699 DEBUG Secsh channel 0 opened. 
+2026-10-03 12:28:03,720 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 12:28:03,735 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 12:28:03,736 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:03,837 DEBUG write_channel: b'terminal width 511\n' 
+2026-10-03 12:28:03,838 DEBUG read_channel: 
+R1#
+R1# 
+2026-10-03 12:28:03,849 DEBUG read_channel:  
+2026-10-03 12:28:03,859 DEBUG read_channel: terminal width 511
+ 
+2026-10-03 12:28:03,859 DEBUG Pattern found: (terminal width 511) 
+R1#
+R1#terminal width 511 
+2026-10-03 12:28:03,859 DEBUG In disable_paging 
+2026-10-03 12:28:03,860 DEBUG Command: terminal length 0
+ 
+2026-10-03 12:28:03,860 DEBUG write_channel: b'terminal length 0\n' 
+2026-10-03 12:28:03,860 DEBUG read_channel:  
+2026-10-03 12:28:03,870 DEBUG read_channel: R1# 
+2026-10-03 12:28:03,881 DEBUG read_channel:  
+2026-10-03 12:28:03,892 DEBUG read_channel: terminal length  
+2026-10-03 12:28:03,903 DEBUG read_channel: 0
+R1# 
+2026-10-03 12:28:03,903 DEBUG Pattern found: (terminal\ length\ 0) 
+R1#terminal length 0 
+2026-10-03 12:28:03,903 DEBUG 
+R1#terminal length 0 
+2026-10-03 12:28:03,903 DEBUG Exiting disable_paging 
+2026-10-03 12:28:03,913 DEBUG read_channel:  
+2026-10-03 12:28:03,914 DEBUG Clear buffer detects data in the channel 
+2026-10-03 12:28:03,935 DEBUG read_channel:  
+2026-10-03 12:28:03,935 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:03,935 DEBUG read_channel:  
+2026-10-03 12:28:03,946 DEBUG read_channel: 
+R1# 
+2026-10-03 12:28:03,946 DEBUG Pattern found: ((?:\#|>)) 
+R1# 
+2026-10-03 12:28:03,957 DEBUG read_channel:  
+2026-10-03 12:28:03,957 DEBUG [find_prompt()]: prompt is R1# 
+2026-10-03 12:28:03,968 DEBUG read_channel:  
+2026-10-03 12:28:03,968 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:03,994 DEBUG read_channel: 
+R1# 
+2026-10-03 12:28:04,005 DEBUG read_channel:  
+2026-10-03 12:28:04,005 DEBUG [find_prompt()]: prompt is R1# 
+2026-10-03 12:28:04,016 DEBUG read_channel:  
+2026-10-03 12:28:04,016 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:04,042 DEBUG read_channel: 
+R1# 
+2026-10-03 12:28:04,053 DEBUG read_channel:  
+2026-10-03 12:28:04,053 DEBUG [find_prompt()]: prompt is R1# 
+2026-10-03 12:28:04,053 DEBUG write_channel: b'sh ip int brief\n' 
+2026-10-03 12:28:04,053 DEBUG read_channel:  
+2026-10-03 12:28:04,064 DEBUG read_channel:  
+2026-10-03 12:28:04,074 DEBUG read_channel: sh ip int brief
+ 
+2026-10-03 12:28:04,075 DEBUG Pattern found: (sh\ ip\ int\ brief) sh ip int brief 
+2026-10-03 12:28:04,100 DEBUG read_channel: Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.56.10   YES NVRAM  up                    up      
+FastEthernet1/0            10.1.1.1        YES NVRAM  up                    up      
+R1# 
+2026-10-03 12:28:04,185 DEBUG starting thread (client mode): 0xbb51d160 
+2026-10-03 12:28:04,185 DEBUG Local version/idstring: SSH-2.0-paramiko_4.0.0 
+2026-10-03 12:28:04,269 DEBUG Remote version/idstring: SSH-2.0-Cisco-1.25 
+2026-10-03 12:28:04,269 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 12:28:04,314 DEBUG === Key exchange possibilities === 
+2026-10-03 12:28:04,314 DEBUG kex algos: diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1 
+2026-10-03 12:28:04,314 DEBUG server key: ssh-rsa 
+2026-10-03 12:28:04,315 DEBUG client encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 12:28:04,315 DEBUG server encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 12:28:04,315 DEBUG client mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 12:28:04,315 DEBUG server mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 12:28:04,315 DEBUG client compress: none 
+2026-10-03 12:28:04,315 DEBUG server compress: none 
+2026-10-03 12:28:04,315 DEBUG client lang: <none> 
+2026-10-03 12:28:04,315 DEBUG server lang: <none> 
+2026-10-03 12:28:04,315 DEBUG kex follows: False 
+2026-10-03 12:28:04,315 DEBUG === Key exchange agreements === 
+2026-10-03 12:28:04,315 DEBUG Kex: diffie-hellman-group-exchange-sha1 
+2026-10-03 12:28:04,315 DEBUG HostKey: ssh-rsa 
+2026-10-03 12:28:04,315 DEBUG Cipher: aes128-cbc 
+2026-10-03 12:28:04,315 DEBUG MAC: hmac-sha1 
+2026-10-03 12:28:04,315 DEBUG Compression: none 
+2026-10-03 12:28:04,315 DEBUG === End of kex handshake === 
+2026-10-03 12:28:04,361 DEBUG Got server p (2048 bits) 
+2026-10-03 12:28:04,700 DEBUG kex engine KexGex specified hash_algo <built-in function openssl_sha1> 
+2026-10-03 12:28:04,701 DEBUG Switch to new keys ... 
+2026-10-03 12:28:04,701 DEBUG Adding ssh-rsa host key for 10.1.1.2: b'f9601795e4486a9c8508c5b2d3d0901c' 
+2026-10-03 12:28:04,979 DEBUG userauth is OK 
+2026-10-03 12:28:05,042 INFO Authentication (password) successful! 
+2026-10-03 12:28:05,042 DEBUG [chan 0] Max packet in: 32768 bytes 
+2026-10-03 12:28:05,090 DEBUG [chan 0] Max packet out: 4096 bytes 
+2026-10-03 12:28:05,090 DEBUG Secsh channel 0 opened. 
+2026-10-03 12:28:05,135 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 12:28:05,182 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 12:28:05,182 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:05,283 DEBUG write_channel: b'terminal width 511\n' 
+2026-10-03 12:28:05,283 DEBUG read_channel: 
+R2#
+R2# 
+2026-10-03 12:28:05,294 DEBUG read_channel:  
+2026-10-03 12:28:05,305 DEBUG read_channel:  
+2026-10-03 12:28:05,316 DEBUG read_channel:  
+2026-10-03 12:28:05,326 DEBUG read_channel:  
+2026-10-03 12:28:05,337 DEBUG read_channel: terminal width 511
+R2# 
+2026-10-03 12:28:05,337 DEBUG Pattern found: (terminal width 511) 
+R2#
+R2#terminal width 511 
+2026-10-03 12:28:05,337 DEBUG In disable_paging 
+2026-10-03 12:28:05,337 DEBUG Command: terminal length 0
+ 
+2026-10-03 12:28:05,338 DEBUG write_channel: b'terminal length 0\n' 
+2026-10-03 12:28:05,338 DEBUG read_channel:  
+2026-10-03 12:28:05,348 DEBUG read_channel:  
+2026-10-03 12:28:05,359 DEBUG read_channel:  
+2026-10-03 12:28:05,370 DEBUG read_channel:  
+2026-10-03 12:28:05,380 DEBUG read_channel:  
+2026-10-03 12:28:05,391 DEBUG read_channel: terminal le 
+2026-10-03 12:28:05,402 DEBUG read_channel: ngth 0
+R2# 
+2026-10-03 12:28:05,402 DEBUG Pattern found: (terminal\ length\ 0) 
+R2#terminal length 0 
+2026-10-03 12:28:05,402 DEBUG 
+R2#terminal length 0 
+2026-10-03 12:28:05,402 DEBUG Exiting disable_paging 
+2026-10-03 12:28:05,413 DEBUG read_channel:  
+2026-10-03 12:28:05,413 DEBUG Clear buffer detects data in the channel 
+2026-10-03 12:28:05,434 DEBUG read_channel:  
+2026-10-03 12:28:05,434 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:05,435 DEBUG read_channel:  
+2026-10-03 12:28:05,445 DEBUG read_channel:  
+2026-10-03 12:28:05,456 DEBUG read_channel:  
+2026-10-03 12:28:05,467 DEBUG read_channel:  
+2026-10-03 12:28:05,477 DEBUG read_channel:  
+2026-10-03 12:28:05,488 DEBUG read_channel: 
+R2# 
+2026-10-03 12:28:05,489 DEBUG Pattern found: ((?:\#|>)) 
+R2# 
+2026-10-03 12:28:05,500 DEBUG read_channel:  
+2026-10-03 12:28:05,500 DEBUG [find_prompt()]: prompt is R2# 
+2026-10-03 12:28:05,510 DEBUG read_channel:  
+2026-10-03 12:28:05,511 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:05,537 DEBUG read_channel:  
+2026-10-03 12:28:05,537 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:05,563 DEBUG read_channel: 
+R2# 
+2026-10-03 12:28:05,574 DEBUG read_channel:  
+2026-10-03 12:28:05,574 DEBUG [find_prompt()]: prompt is R2# 
+2026-10-03 12:28:05,585 DEBUG read_channel:  
+2026-10-03 12:28:05,585 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:05,611 DEBUG read_channel: 
+R2# 
+2026-10-03 12:28:05,621 DEBUG read_channel:  
+2026-10-03 12:28:05,621 DEBUG [find_prompt()]: prompt is R2# 
+2026-10-03 12:28:05,621 DEBUG write_channel: b'sh ip int brief\n' 
+2026-10-03 12:28:05,622 DEBUG read_channel:  
+2026-10-03 12:28:05,632 DEBUG read_channel:  
+2026-10-03 12:28:05,643 DEBUG read_channel:  
+2026-10-03 12:28:05,653 DEBUG read_channel: 
+R2# 
+2026-10-03 12:28:05,664 DEBUG read_channel:  
+2026-10-03 12:28:05,675 DEBUG read_channel:  
+2026-10-03 12:28:05,685 DEBUG read_channel:  
+2026-10-03 12:28:05,695 DEBUG read_channel: sh ip int brief
+ 
+2026-10-03 12:28:05,696 DEBUG Pattern found: (sh\ ip\ int\ brief) 
+R2#sh ip int brief 
+2026-10-03 12:28:05,721 DEBUG read_channel: Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            10.1.1.2        YES NVRAM  up                    up      
+FastEthernet1/0            172.16.196.1    YES NVRAM  up                    up      
+R2# 
+2026-10-03 12:28:05,805 DEBUG starting thread (client mode): 0xbb34f8c0 
+2026-10-03 12:28:05,806 DEBUG Local version/idstring: SSH-2.0-paramiko_4.0.0 
+2026-10-03 12:28:05,884 DEBUG Remote version/idstring: SSH-2.0-Cisco-1.25 
+2026-10-03 12:28:05,884 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 12:28:05,967 DEBUG === Key exchange possibilities === 
+2026-10-03 12:28:05,967 DEBUG kex algos: diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1 
+2026-10-03 12:28:05,967 DEBUG server key: ssh-rsa 
+2026-10-03 12:28:05,967 DEBUG client encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 12:28:05,967 DEBUG server encrypt: aes128-cbc, 3des-cbc, aes192-cbc, aes256-cbc 
+2026-10-03 12:28:05,967 DEBUG client mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 12:28:05,967 DEBUG server mac: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96 
+2026-10-03 12:28:05,967 DEBUG client compress: none 
+2026-10-03 12:28:05,967 DEBUG server compress: none 
+2026-10-03 12:28:05,967 DEBUG client lang: <none> 
+2026-10-03 12:28:05,967 DEBUG server lang: <none> 
+2026-10-03 12:28:05,967 DEBUG kex follows: False 
+2026-10-03 12:28:05,967 DEBUG === Key exchange agreements === 
+2026-10-03 12:28:05,967 DEBUG Kex: diffie-hellman-group-exchange-sha1 
+2026-10-03 12:28:05,967 DEBUG HostKey: ssh-rsa 
+2026-10-03 12:28:05,967 DEBUG Cipher: aes128-cbc 
+2026-10-03 12:28:05,968 DEBUG MAC: hmac-sha1 
+2026-10-03 12:28:05,968 DEBUG Compression: none 
+2026-10-03 12:28:05,968 DEBUG === End of kex handshake === 
+2026-10-03 12:28:06,047 DEBUG Got server p (2048 bits) 
+2026-10-03 12:28:06,583 DEBUG kex engine KexGex specified hash_algo <built-in function openssl_sha1> 
+2026-10-03 12:28:06,583 DEBUG Switch to new keys ... 
+2026-10-03 12:28:06,583 DEBUG Adding ssh-rsa host key for 172.16.196.2: b'3a38b541c1c3580dffe5d90fa5863b62' 
+2026-10-03 12:28:06,932 DEBUG userauth is OK 
+2026-10-03 12:28:07,033 INFO Authentication (password) successful! 
+2026-10-03 12:28:07,034 DEBUG [chan 0] Max packet in: 32768 bytes 
+2026-10-03 12:28:07,115 DEBUG [chan 0] Max packet out: 4096 bytes 
+2026-10-03 12:28:07,121 DEBUG Secsh channel 0 opened. 
+2026-10-03 12:28:07,200 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 12:28:07,319 DEBUG [chan 0] Sesch channel 0 request ok 
+2026-10-03 12:28:07,320 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:07,420 DEBUG write_channel: b'terminal width 511\n' 
+2026-10-03 12:28:07,421 DEBUG read_channel: 
+R3#
+R3# 
+2026-10-03 12:28:07,431 DEBUG read_channel:  
+2026-10-03 12:28:07,442 DEBUG read_channel:  
+2026-10-03 12:28:07,452 DEBUG read_channel:  
+2026-10-03 12:28:07,463 DEBUG read_channel:  
+2026-10-03 12:28:07,473 DEBUG read_channel:  
+2026-10-03 12:28:07,484 DEBUG read_channel:  
+2026-10-03 12:28:07,495 DEBUG read_channel: terminal width 511
+R3# 
+2026-10-03 12:28:07,495 DEBUG Pattern found: (terminal width 511) 
+R3#
+R3#terminal width 511 
+2026-10-03 12:28:07,495 DEBUG In disable_paging 
+2026-10-03 12:28:07,495 DEBUG Command: terminal length 0
+ 
+2026-10-03 12:28:07,495 DEBUG write_channel: b'terminal length 0\n' 
+2026-10-03 12:28:07,495 DEBUG read_channel:  
+2026-10-03 12:28:07,506 DEBUG read_channel:  
+2026-10-03 12:28:07,517 DEBUG read_channel:  
+2026-10-03 12:28:07,527 DEBUG read_channel:  
+2026-10-03 12:28:07,538 DEBUG read_channel:  
+2026-10-03 12:28:07,549 DEBUG read_channel:  
+2026-10-03 12:28:07,559 DEBUG read_channel:  
+2026-10-03 12:28:07,570 DEBUG read_channel: terminal len 
+2026-10-03 12:28:07,581 DEBUG read_channel:  
+2026-10-03 12:28:07,592 DEBUG read_channel: gth 0
+R3# 
+2026-10-03 12:28:07,592 DEBUG Pattern found: (terminal\ length\ 0) 
+R3#terminal length 0 
+2026-10-03 12:28:07,592 DEBUG 
+R3#terminal length 0 
+2026-10-03 12:28:07,592 DEBUG Exiting disable_paging 
+2026-10-03 12:28:07,603 DEBUG read_channel:  
+2026-10-03 12:28:07,603 DEBUG Clear buffer detects data in the channel 
+2026-10-03 12:28:07,623 DEBUG read_channel:  
+2026-10-03 12:28:07,624 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:07,624 DEBUG read_channel:  
+2026-10-03 12:28:07,634 DEBUG read_channel:  
+2026-10-03 12:28:07,645 DEBUG read_channel:  
+2026-10-03 12:28:07,656 DEBUG read_channel:  
+2026-10-03 12:28:07,666 DEBUG read_channel:  
+2026-10-03 12:28:07,677 DEBUG read_channel:  
+2026-10-03 12:28:07,688 DEBUG read_channel:  
+2026-10-03 12:28:07,698 DEBUG read_channel: 
+R3# 
+2026-10-03 12:28:07,698 DEBUG Pattern found: ((?:\#|>)) 
+R3# 
+2026-10-03 12:28:07,709 DEBUG read_channel:  
+2026-10-03 12:28:07,709 DEBUG [find_prompt()]: prompt is R3# 
+2026-10-03 12:28:07,720 DEBUG read_channel:  
+2026-10-03 12:28:07,720 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:07,746 DEBUG read_channel:  
+2026-10-03 12:28:07,746 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:07,772 DEBUG read_channel:  
+2026-10-03 12:28:07,772 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:07,823 DEBUG read_channel: 
+R3# 
+2026-10-03 12:28:07,833 DEBUG read_channel:  
+2026-10-03 12:28:07,833 DEBUG [find_prompt()]: prompt is R3# 
+2026-10-03 12:28:07,844 DEBUG read_channel:  
+2026-10-03 12:28:07,844 DEBUG write_channel: b'\n' 
+2026-10-03 12:28:07,870 DEBUG read_channel: 
+R3#
+R3# 
+2026-10-03 12:28:07,881 DEBUG read_channel:  
+2026-10-03 12:28:07,881 DEBUG [find_prompt()]: prompt is R3# 
+2026-10-03 12:28:07,881 DEBUG write_channel: b'sh ip int brief\n' 
+2026-10-03 12:28:07,881 DEBUG read_channel:  
+2026-10-03 12:28:07,891 DEBUG read_channel:  
+2026-10-03 12:28:07,902 DEBUG read_channel:  
+2026-10-03 12:28:07,913 DEBUG read_channel:  
+2026-10-03 12:28:07,923 DEBUG read_channel:  
+2026-10-03 12:28:07,934 DEBUG read_channel:  
+2026-10-03 12:28:07,944 DEBUG read_channel: 
+R3# 
+2026-10-03 12:28:07,955 DEBUG read_channel:  
+2026-10-03 12:28:07,966 DEBUG read_channel:  
+2026-10-03 12:28:07,977 DEBUG read_channel:  
+2026-10-03 12:28:07,987 DEBUG read_channel:  
+2026-10-03 12:28:07,998 DEBUG read_channel:  
+2026-10-03 12:28:08,009 DEBUG read_channel:  
+2026-10-03 12:28:08,020 DEBUG read_channel:  
+2026-10-03 12:28:08,030 DEBUG read_channel:  
+2026-10-03 12:28:08,041 DEBUG read_channel: sh ip int brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            172.16.196.2    YES NVRAM  up                    up      
+FastEthernet1/0            unassigned      YES NVRAM  administratively down down    
+R3# 
+2026-10-03 12:28:08,041 DEBUG Pattern found: (sh\ ip\ int\ brief) 
+R3#sh ip int brief 
+2026-10-03 12:28:08,067 DEBUG read_channel:  
+2026-10-03 12:28:08,068 DEBUG EOF in transport thread 
+2026-10-03 12:34:51,606 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 12:34:52,220 INFO Authentication (password) successful! 
+2026-10-03 12:34:52,757 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 12:34:53,490 INFO Authentication (password) successful! 
+2026-10-03 12:34:54,417 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 12:34:55,570 INFO Authentication (password) successful! 
+2026-10-03 17:54:47,845 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 17:54:48,795 INFO Authentication (password) successful! 
+2026-10-03 17:54:49,315 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 17:54:50,161 INFO Authentication (password) successful! 
+2026-10-03 17:54:51,042 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 17:54:52,242 INFO Authentication (password) successful! 
+2026-10-03 18:08:25,562 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:08:26,232 INFO Authentication (password) successful! 
+2026-10-03 18:08:26,715 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:08:27,609 INFO Authentication (password) successful! 
+2026-10-03 18:08:28,860 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:08:30,140 INFO Authentication (password) successful! 
+2026-10-03 18:58:40,399 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:58:41,303 INFO Authentication (password) successful! 
+2026-10-03 18:58:41,875 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:58:42,673 INFO Authentication (password) successful! 
+2026-10-03 18:58:43,553 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:58:45,206 INFO Authentication (password) successful! 
+2026-10-04 07:20:25,895 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:20:26,727 INFO Authentication (password) successful! 
+2026-10-04 07:20:27,220 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:20:27,989 INFO Authentication (password) successful! 
+2026-10-04 07:20:28,812 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:20:29,957 INFO Authentication (password) successful! 
+2026-10-04 07:21:54,253 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:21:54,908 INFO Authentication (password) successful! 
+2026-10-04 07:21:55,475 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:21:56,327 INFO Authentication (password) successful! 
+2026-10-04 07:21:57,173 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:21:58,315 INFO Authentication (password) successful! 
+2026-10-04 07:31:07,263 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:31:07,812 INFO Authentication (password) successful! 
+2026-10-04 07:31:18,210 ERROR Failed to connect due to TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 10.1.1.2:22
+
+ 
+2026-10-04 07:32:55,839 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:32:56,495 INFO Authentication (password) successful! 
+2026-10-04 07:32:56,995 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:32:57,652 INFO Authentication (password) successful! 
+2026-10-04 07:32:58,510 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:32:59,473 INFO Authentication (password) successful! 
+2026-10-04 07:52:02,391 INFO Connected (version 2.0, client Cisco-1.25)
+2026-10-04 07:52:03,046 INFO Authentication (password) successful!
+2026-10-04 07:52:03,630 INFO Connected (version 2.0, client Cisco-1.25)
+2026-10-04 07:52:04,483 INFO Authentication (password) successful!
+2026-10-04 07:52:05,445 INFO Connected (version 2.0, client Cisco-1.25)
+2026-10-04 07:52:06,616 INFO Authentication (password) successful!
+2026-10-04 09:16:22,461 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:16:23,316 INFO Authentication (password) successful! 
+2026-10-04 09:16:31,027 ERROR Failed to connect due to 'function' object has no attribute 'send_command' 
+2026-10-04 09:17:56,224 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:17:56,900 INFO Authentication (password) successful! 
+2026-10-04 09:18:00,124 ERROR Failed to connect due to 'function' object has no attribute 'send_command' 
+2026-10-04 09:19:01,665 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:19:02,557 INFO Authentication (password) successful! 
+2026-10-04 09:19:05,467 ERROR Failed to connect due to 'function' object has no attribute 'send_command' 
+2026-10-04 09:20:39,289 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:20:40,066 INFO Authentication (password) successful! 
+2026-10-04 09:20:43,224 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:20:44,023 INFO Authentication (password) successful! 
+2026-10-04 09:20:47,661 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:20:48,882 INFO Authentication (password) successful! 
+2026-10-04 09:21:08,903 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:21:09,553 INFO Authentication (password) successful! 
+2026-10-04 09:21:18,820 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:21:19,621 INFO Authentication (password) successful! 
+2026-10-04 09:22:52,693 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:22:53,564 INFO Authentication (password) successful! 
+2026-10-04 09:22:56,991 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:22:57,909 INFO Authentication (password) successful! 
+2026-10-04 09:23:02,990 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:23:04,224 INFO Authentication (password) successful! 
+2026-10-04 09:25:27,091 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:27,722 INFO Authentication (password) successful! 
+2026-10-04 09:25:35,874 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:36,706 INFO Authentication (password) successful! 
+2026-10-04 09:25:37,755 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:38,966 INFO Authentication (password) successful! 
+2026-10-04 09:25:43,256 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:43,925 INFO Authentication (password) successful! 
+2026-10-04 09:25:51,441 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:52,225 INFO Authentication (password) successful! 
+2026-10-04 09:25:55,838 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:25:57,007 INFO Authentication (password) successful! 
+2026-10-04 09:26:49,902 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:26:50,462 INFO Authentication (password) successful! 
+2026-10-04 09:27:04,103 ERROR Failed to connect due to TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 10.1.1.2:22
+
+ 
+2026-10-04 09:45:39,393 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 09:45:40,028 INFO Authentication (password) successful! 
+2026-10-04 09:45:53,498 ERROR Failed to connect due to TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 10.1.1.2:22
+
+ 
+2026-10-04 09:46:03,500 ERROR Failed to connect due to TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.196.2:22
+
+ 
+2026-10-04 11:13:16,702 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 11:13:17,530 INFO Authentication (password) successful! 
+2026-10-04 11:13:34,340 ERROR Failed to connect due to 
+Pattern not detected: 'R1\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+ 
+2026-10-04 11:13:34,526 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 11:13:35,356 INFO Authentication (password) successful! 
+2026-10-04 11:13:41,726 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 11:13:42,876 INFO Authentication (password) successful! 
