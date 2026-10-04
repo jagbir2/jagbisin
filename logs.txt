@@ -666,3 +666,51 @@ R3#sh ip int brief
 2026-10-03 12:34:53,490 INFO Authentication (password) successful! 
 2026-10-03 12:34:54,417 INFO Connected (version 2.0, client Cisco-1.25) 
 2026-10-03 12:34:55,570 INFO Authentication (password) successful! 
+2026-10-03 17:54:47,845 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 17:54:48,795 INFO Authentication (password) successful! 
+2026-10-03 17:54:49,315 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 17:54:50,161 INFO Authentication (password) successful! 
+2026-10-03 17:54:51,042 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 17:54:52,242 INFO Authentication (password) successful! 
+2026-10-03 18:08:25,562 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:08:26,232 INFO Authentication (password) successful! 
+2026-10-03 18:08:26,715 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:08:27,609 INFO Authentication (password) successful! 
+2026-10-03 18:08:28,860 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:08:30,140 INFO Authentication (password) successful! 
+2026-10-03 18:58:40,399 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:58:41,303 INFO Authentication (password) successful! 
+2026-10-03 18:58:41,875 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:58:42,673 INFO Authentication (password) successful! 
+2026-10-03 18:58:43,553 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-03 18:58:45,206 INFO Authentication (password) successful! 
+2026-10-04 07:20:25,895 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:20:26,727 INFO Authentication (password) successful! 
+2026-10-04 07:20:27,220 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:20:27,989 INFO Authentication (password) successful! 
+2026-10-04 07:20:28,812 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:20:29,957 INFO Authentication (password) successful! 
+2026-10-04 07:21:54,253 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:21:54,908 INFO Authentication (password) successful! 
+2026-10-04 07:21:55,475 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:21:56,327 INFO Authentication (password) successful! 
+2026-10-04 07:21:57,173 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:21:58,315 INFO Authentication (password) successful! 
+2026-10-04 07:31:07,263 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:31:07,812 INFO Authentication (password) successful! 
+2026-10-04 07:31:18,210 ERROR Failed to connect due to TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 10.1.1.2:22
+
+ 
+2026-10-04 07:32:55,839 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:32:56,495 INFO Authentication (password) successful! 
+2026-10-04 07:32:56,995 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:32:57,652 INFO Authentication (password) successful! 
+2026-10-04 07:32:58,510 INFO Connected (version 2.0, client Cisco-1.25) 
+2026-10-04 07:32:59,473 INFO Authentication (password) successful! 
